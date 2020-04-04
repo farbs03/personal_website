@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="container">
+		<h2>Other</h2>
+		<p style="font-size: 16px">Apart from coding, there are some other things I am interested in (as one would hope).</p>
+		<div class="music">
+			<h3>Music</h3>
+			<p>Since 5th Grade, I have played the violin and have participated in All Region Orchestras, local and state competitions (ISSMA), and orchestra within school. I plan on doing more competitions and organizations in the future.</p>
+			<p>Since 7th grade, I have been part of the Indianapolis Youth Orchestra, formerly known as the New World Youth Orchestra. I have worked my way up to play in the top orchestra, known as the Symphony Orchestra, as a 2nd Violin.</p>
+			<p>Currently, I am working on the Mendelssohn Concerto and Paganini Caprices 20 and 24.</p>
+			<p>Apart from Violin, I am teaching myself the acoustic guitar, although I haven't touched it in a while :(.</p>
+		</div>
+		<div class="leisure">
+			<h3>Leisure</h3>
+			<p>In my free time, I practice violin, shoot hoops, play video games, code, and play with my dog.</p>
+			<p>Recently, I started playing Overwatch, as inspired by some friends. Also, I play Minecraft occasionally because it's a great game.</p>
+			<p>My dog, Rocky, not only brings me great happiness but also is a great way to get some exercise in.</p>
+			<p>The rest is pretty self-explanatory I guess.</p>
+		</div>
+		<div class="cooking">		
+			<h3>Cooking</h3>
+			<p>I enjoy cooking, but I have a clear specialty: Grilled Cheese. Below is an attached recipe that will guarantee you a life changing sandwich experience.</p>
+			<p><a href="{{ url_for('static', filename='Grilled Cheese Recipe.png') }}" class="grilled-cheese" target="_blank"><i class="fas fa-cheese"></i>&nbsp;Grilled Cheese Recipe</a></p>
+		</div>
+	</div>
+{% endblock %}

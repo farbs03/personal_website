@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="container">
+		<h2>Welcome to Chris Farber's Website!</h2>
+		<div class="img-txt">
+			<img src="{{ url_for('static', filename='chris_farber.png') }}" align="middle" class="profile-pic">
+			<p class="home-info">This is my personal website, where you can find some of the coding projects I've been working on, information about myself, and resources I've found helpful for coding.</p>
+		</div>
+		<br>
+		<br>
+		<footer class="footer">
+		 	<h3>What I'm working on at the moment:</h3>
+		 	<br>
+		  	<ul class="work-in-progress">
+		  		<li>This website</li>
+		  		<li>A school course rating website</li>
+		  		<li>Integrating machine learning into a website</li>
+		  		<li>Learning about machine learning (in general)</li>
+		  	</ul>
+		</footer>
+	</div>
+{% endblock content %}
