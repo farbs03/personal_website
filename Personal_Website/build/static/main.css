@@ -1,0 +1,99 @@
+.profile-pic{
+	width: 20%;
+	margin: 2%;
+	border-radius: 50%;
+	border: #ffc34d 2px solid;
+}
+.home-info{
+	font-size: 20px;
+	float: right;
+}
+.img-txt{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.work-in-progress{
+	list-style-position: inside;
+}
+.work-in-progress li{
+	font-size: 20px;
+}
+#myNavbar ul li a{
+	text-decoration: none;
+	position: relative;
+	color: black;
+	font-size: 16px;
+}
+#myNavbar ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid black;
+  transition: 0.4s;
+}
+#myNavbar ul li a:hover:after {
+  width: 100%;
+}
+#myNavbar ul li a:hover{
+	color: #ffc34d;
+}
+#myNavbar ul li a i{
+	margin: 3px;
+}
+.bg-lightgray{
+	background: #f2f2f2;
+}
+.img-txt a i{
+	margin: 10px;
+}
+.img-txt a{
+	color: #ffc34d;
+}
+.img-txt p{
+	font-size: 20px;
+}
+.about-info{
+	font-size: 16px;
+}
+.in-hax{
+	color: #ffc34d;
+	font-size: 16px;
+}
+.useful li a{
+	color: #ffc34d;
+	font-size: 16px;
+}
+.img-txt p a{
+	font-size: 16px;
+}
+#brand img{
+	width: 30px;
+	padding: none;
+	margin: none;
+}
+#brand img:hover{
+	width: 35px;
+}
+.projects li a{
+	color: #ffc34d;
+	list-style-type: none;
+	font-size: 16px;
+}
+#nav-main{
+	border-bottom: #ffc34d 2px solid;
+}
+.grilled-cheese{
+	color: #ffc34d;
+}
+.music p{
+	font-size: 16px;
+}
+.leisure p{
+	font-size: 16px;
+}
+.cooking p{
+	font-size: 16px;
+}
